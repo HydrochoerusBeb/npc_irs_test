@@ -24,7 +24,7 @@ export const Footer = () => {
         >
           TG Username
         </button>
-        <a href="https://github.com/HydrochoerusBeb/npc_irs_test.git">
+        <a target="_blank" href="https://github.com/HydrochoerusBeb/npc_irs_test.git">
           Repo Link
         </a>
       </div>

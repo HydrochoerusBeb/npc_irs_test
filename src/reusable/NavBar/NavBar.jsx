@@ -11,9 +11,9 @@ export const NavBar = () => {
             <img className={s.profile_pic} src={profilePic} alt="Link to my GitHub!" />
         </a>
       <div className={s.buttons}>
-        <Link to="/">Main page</Link>
-        <Link to="/helpdesk">Help desk</Link>
-        <Link to="/citizenslist">List of citizens</Link>
+        <Link to="/npc_irs_test">Main page</Link>
+        <Link to="/npc_irs_test/helpdesk">Help desk</Link>
+        <Link to="/npc_irs_test/citizenslist">List of citizens</Link>
       </div>
       </div>
     </div>

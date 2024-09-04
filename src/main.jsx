@@ -12,15 +12,15 @@ import { MainPage } from './pages/MainPage/MainPage';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/npc_irs_test",
     element: <MainPage/>,
   },
   {
-    path: "/citizenslist",
+    path: "/npc_irs_test/citizenslist",
     element: <CitizenListPage/>,
   },
   {
-    path: "/helpdesk",
+    path: "/npc_irs_test/helpdesk",
     element: <HelpDeskPage/>,
   },
 ]);
