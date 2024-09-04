@@ -1,0 +1,36 @@
+.nav_container{    
+    background-color: #2CA1A1;
+    padding: 1px 0 ;
+}
+
+.free_space{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 1100px;
+    margin: 10px auto;
+}
+
+.profile_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_pic{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.buttons>a{
+    text-decoration: none;
+    color: #FFFFFFDE;
+    font-size: 20px;
+}

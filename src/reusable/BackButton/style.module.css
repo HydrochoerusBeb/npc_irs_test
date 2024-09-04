@@ -1,0 +1,19 @@
+.button_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.back_button{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back_button > img{
+    margin-top: 6px;
+    width: 25px;
+    height: 25px;
+}
