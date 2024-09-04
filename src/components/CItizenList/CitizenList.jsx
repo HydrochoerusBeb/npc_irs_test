@@ -11,7 +11,6 @@ import InputLabel from "@mui/material/InputLabel";
 const CitizenList = ({ citizens, onSelectCitizen }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [sortType, setSortType] = useState("fullName");
-  const [occupationFilter, setOccupationFilter] = useState("");
   const [eduFilter, setEduFilter] = useState("");
   const [uniqueEdus, setUniqueEdus] = useState([]);
 
@@ -65,7 +64,7 @@ const CitizenList = ({ citizens, onSelectCitizen }) => {
     }
 
     return filteredCitizens;
-  }, [searchTerm, citizens, sortType, occupationFilter, eduFilter]);
+  }, [searchTerm, citizens, sortType, eduFilter]);
 
   const Row = ({ index, style }) => (
     <ListItem

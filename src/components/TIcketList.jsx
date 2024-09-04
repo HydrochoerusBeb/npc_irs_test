@@ -31,6 +31,9 @@ export const TicketList = ({ tickets, onSelectTicket }) => {
     "& .MuiInputBase-input": {
       color: "#FFFFFFDE", 
     },
+    "& .MuiSvgIcon-root": {
+      color: "#FFFFFFDE",
+    },
     mt: 2
   }
 
