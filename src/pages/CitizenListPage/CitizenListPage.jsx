@@ -8,7 +8,7 @@ import s from './style.module.css'
 import { Footer } from '../../reusable/Footer/Footer';
 
 
-const citizensData = generateCitizens(100000);
+const citizensData = generateCitizens(10000);
 
 
 export const CitizenListPage = () => { 

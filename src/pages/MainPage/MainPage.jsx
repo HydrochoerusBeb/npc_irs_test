@@ -4,7 +4,7 @@ import { generateCitizens } from "../../data/generateData";
 import { NavBar } from "../../reusable/NavBar/NavBar";
 import { Footer } from "../../reusable/Footer/Footer";
 import s from './style.module.css'
-const citizensData = generateCitizens(100000);
+const citizensData = generateCitizens(10000);
 
 export const MainPage = () => {
   return (
